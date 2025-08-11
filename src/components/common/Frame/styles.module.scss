@@ -1,0 +1,13 @@
+@import "../../../styles/variables";
+
+.frame {
+	padding-inline: 16vw;
+	display: flex;
+	height: 100vh;
+
+	&__content {
+		border-left: $default-border;
+		border-right: $default-border;
+		width: 32vw;
+	}
+}

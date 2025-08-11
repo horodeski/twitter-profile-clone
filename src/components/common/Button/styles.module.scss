@@ -1,0 +1,39 @@
+@import "../../../styles/variables";
+
+.button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.icon {
+	width: 36px;
+	height: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: $radius-lg;
+
+	&:hover {
+		background-color: $background-hover;
+	}
+
+	i {
+		font-size: $text-lg;
+	}
+}
+
+.secondary {
+	border-radius: 20px;
+	border: rgb(83, 100, 113) 1px solid;
+	padding: 1vh 1vw;
+	
+	&:hover {
+		background-color: $background-hover;
+	}
+	
+	span {
+		font-weight: $chirp-bold;
+		font-size: $text-md;
+	}
+}

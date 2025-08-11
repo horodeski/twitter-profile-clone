@@ -1,0 +1,62 @@
+@import "variables";
+
+@font-face {
+	font-family: "Chirp";
+	src: url("../assets/font/Chirp Regular.woff") format("woff"), url("../assets/font/Chirp Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Chirp";
+	src: url("../assets/font/Chirp Medium.woff") format("woff"), url("../assets/font/Chirp Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Chirp";
+	src: url("../assets/font/Chirp Bold.woff") format("woff"), url("../assets/font/Chirp Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Chirp";
+	src: url("../assets/font/Chirp Heavy.woff") format("woff"), url("../assets/font/Chirp Heavy.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	background-color: rgb(0, 0, 0);
+	scrollbar-color: rgb(62, 65, 68) rgb(22, 24, 28);
+	font-family: "Chirp", sans-serif;
+	height: 100vh;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #e7e9ea !important;
+}
+
+h3 {
+	font-size: $text-lg;
+	font-weight: $chirp-bold;
+}
+
+.text--small--gray {
+	color: $twitter-gray !important;
+	font-size: $text-sm;
+}
+
+.text--medium--gray {
+	color: $twitter-gray !important;
+	font-size: $text-md;
+}
+
+p {
+	font-size: $text-md;
+}
