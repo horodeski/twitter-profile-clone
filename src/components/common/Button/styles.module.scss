@@ -23,6 +23,31 @@
 	}
 }
 
+.pink:hover {
+	background-color: $twitter-pink-bg-10;
+}
+
+.pink:hover i {
+	color: $twitter-pink !important;
+}
+
+
+.blue:hover {
+	background-color: $twitter-blue-bg-10;
+}
+
+.blue:hover i {
+	color: $twitter-blue !important;
+}
+
+.green:hover {
+	background-color: $twitter-green-bg-10;
+}
+
+.green:hover i {
+	color: $twitter-green !important;
+}
+
 .secondary {
 	border-radius: 20px;
 	border: rgb(83, 100, 113) 1px solid;

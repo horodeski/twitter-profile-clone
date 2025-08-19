@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderProfile, Tabs, UserInfo } from "../../components";
+import { HeaderProfile, Tabs, Tweet, UserInfo } from "../../components";
 
 function Profile() {
 	return (
@@ -7,6 +7,8 @@ function Profile() {
 			<HeaderProfile />
 			<UserInfo />
 			<Tabs tabs={["Posts", "Respostas", "Mídia", "Curtidas"]} />
+	
+			<Tweet />
 		</div>
 	);
 }

@@ -11,11 +11,28 @@ $chirp-medium: 500;
 $chirp-bold: 700;
 $chirp-heavy: 900;
 
-// Colors
+// Azul oficial do Twitter
 $twitter-blue: #1da1f2;
+$twitter-blue-bg-10: rgba(29, 161, 242, 0.1);
+$twitter-blue-bg-20: rgba(29, 161, 242, 0.2);
+
+// Verde Twitter (usado em confirmações)
+$twitter-green: #17bf63;
+$twitter-green-bg-10: rgba(23, 191, 99, 0.1);
+$twitter-green-bg-20: rgba(23, 191, 99, 0.2);
+
+// Rosa Twitter (usado em curtidas)
+$twitter-pink: #e0245e;
+$twitter-pink-bg-10: rgba(224, 36, 94, 0.1);
+$twitter-pink-bg-20: rgba(224, 36, 94, 0.2);
+
+// Cinza padrão
+$twitter-gray: #657786;
+$twitter-gray-bg-10: rgba(101, 119, 134, 0.1);
+$twitter-gray-bg-20: rgba(101, 119, 134, 0.2);
+
 $twitter-dark: #14171a;
 $twitter-light: #ffffff;
-$twitter-gray: #657786;
 $twitter-extra-light: #e1e8ed;
 $twitter-extra-dark: #0f1419;
 
